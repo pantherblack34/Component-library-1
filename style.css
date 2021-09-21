@@ -1,4 +1,8 @@
-
+:root{
+    --primary-color: #0891B2;
+    --secondary-color: #22D3EE;
+    
+}
 
 *body{
     margin: 0;
@@ -11,7 +15,7 @@
     max-width: 100%;
     margin: auto;
     height: 100px;
-    background-color: red;
+    background-color: var(--primary-color);
     border-radius: 0 50px 0 50px;
 }
 
@@ -48,4 +52,24 @@ nav a{
 
 #part1 ol li{
     font-size: 25px;
+}
+
+#link{
+    display: block;
+    max-width: 700px;
+    margin: auto;
+    text-align: justify;
+    font-size: 25px;
+}
+
+#link-box a{
+    text-decoration: none;
+}
+
+#link-box img{
+    width: 200px;    
+}
+
+.link-inline{
+    display: table-cell;
 }
